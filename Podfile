@@ -6,8 +6,8 @@ target 'GooseNetworking' do
   use_frameworks!
 
   # Pods for GooseNetworking
-  pod 'SnapKit', '~> 4.0.0'
-  pod 'RxSwift', '~> 4.0.0'
-  pod 'RxCocoa', '~> 4.0.0'
+  pod 'SnapKit', '~> 4.2.0'
+  pod 'RxSwift',    '4.3.1'
+  pod 'RxCocoa',    '4.3.1'
 
 end
