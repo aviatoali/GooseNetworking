@@ -12,9 +12,11 @@
 		41C3CF642284646500ED56DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C3CF622284646500ED56DB /* Main.storyboard */; };
 		41C3CF662284646700ED56DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C3CF652284646700ED56DB /* Assets.xcassets */; };
 		41C3CF692284646700ED56DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C3CF672284646700ED56DB /* LaunchScreen.storyboard */; };
+		4CD11FBAF37FE4654CB47CEE /* Pods_GooseNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D856B0620B549884669EA9 /* Pods_GooseNetworking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40D8C81E55D3AB54340259B7 /* Pods-GooseNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooseNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-GooseNetworking/Pods-GooseNetworking.release.xcconfig"; sourceTree = "<group>"; };
 		41C3CF5B2284646500ED56DB /* GooseNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooseNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C3CF5E2284646500ED56DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C3CF602284646500ED56DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		41C3CF652284646700ED56DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C3CF682284646700ED56DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41C3CF6A2284646700ED56DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D856B0620B549884669EA9 /* Pods_GooseNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GooseNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		699557B04D49D94EEA14CF99 /* Pods-GooseNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooseNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GooseNetworking/Pods-GooseNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD11FBAF37FE4654CB47CEE /* Pods_GooseNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				41C3CF5D2284646500ED56DB /* GooseNetworking */,
 				41C3CF5C2284646500ED56DB /* Products */,
+				7897707BECCBC5B123897C2F /* Pods */,
+				C3E30B07BA4E16A0C6A44C9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = GooseNetworking;
 			sourceTree = "<group>";
 		};
+		7897707BECCBC5B123897C2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				699557B04D49D94EEA14CF99 /* Pods-GooseNetworking.debug.xcconfig */,
+				40D8C81E55D3AB54340259B7 /* Pods-GooseNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3E30B07BA4E16A0C6A44C9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62D856B0620B549884669EA9 /* Pods_GooseNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41C3CF6D2284646700ED56DB /* Build configuration list for PBXNativeTarget "GooseNetworking" */;
 			buildPhases = (
+				6D626D45E35232BBB054536E /* [CP] Check Pods Manifest.lock */,
 				41C3CF572284646500ED56DB /* Sources */,
 				41C3CF582284646500ED56DB /* Frameworks */,
 				41C3CF592284646500ED56DB /* Resources */,
+				BA5AD4C91C356AFF3E2215EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +155,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D626D45E35232BBB054536E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GooseNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5AD4C91C356AFF3E2215EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GooseNetworking/Pods-GooseNetworking-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GooseNetworking/Pods-GooseNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41C3CF572284646500ED56DB /* Sources */ = {
@@ -280,6 +357,7 @@
 		};
 		41C3CF6E2284646700ED56DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699557B04D49D94EEA14CF99 /* Pods-GooseNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +376,7 @@
 		};
 		41C3CF6F2284646700ED56DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D8C81E55D3AB54340259B7 /* Pods-GooseNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
