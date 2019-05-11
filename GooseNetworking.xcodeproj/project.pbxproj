@@ -7,21 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		418E731B22874AB200E0FFAD /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E731422874AB100E0FFAD /* HTTPMethod.swift */; };
+		418E731C22874AB200E0FFAD /* HTTPProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E731522874AB100E0FFAD /* HTTPProtocol.swift */; };
+		418E731D22874AB200E0FFAD /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E731622874AB100E0FFAD /* ServiceProtocol.swift */; };
+		418E731E22874AB200E0FFAD /* ServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E731722874AB100E0FFAD /* ServiceRequest.swift */; };
+		418E731F22874AB200E0FFAD /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E731822874AB200E0FFAD /* NetworkClient.swift */; };
+		418E732022874AB200E0FFAD /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E731922874AB200E0FFAD /* NetworkResult.swift */; };
+		418E732122874AB200E0FFAD /* NetworkErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E731A22874AB200E0FFAD /* NetworkErrorType.swift */; };
+		418E732322874B2000E0FFAD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E732222874B2000E0FFAD /* ViewModel.swift */; };
+		418E732722874C1400E0FFAD /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E732622874C1400E0FFAD /* Document.swift */; };
+		418E732A22874C8600E0FFAD /* PDFDocSrv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E732922874C8600E0FFAD /* PDFDocSrv.swift */; };
+		418E732C22874DA300E0FFAD /* ConstStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E732B22874DA300E0FFAD /* ConstStrings.swift */; };
+		418E732E22874E2E00E0FFAD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 418E732D22874E2E00E0FFAD /* Localizable.strings */; };
+		418E733222874F4C00E0FFAD /* UIScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E733022874F4C00E0FFAD /* UIScrollViewExtension.swift */; };
+		418E733322874F4C00E0FFAD /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E733122874F4C00E0FFAD /* UIViewExtension.swift */; };
+		418E73362287508E00E0FFAD /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E73352287508E00E0FFAD /* StringUtils.swift */; };
+		418E73382287509800E0FFAD /* ServiceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E73372287509800E0FFAD /* ServiceUtils.swift */; };
+		418E733A228750DD00E0FFAD /* ErrorDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E7339228750DD00E0FFAD /* ErrorDataModel.swift */; };
+		418E733C2287542D00E0FFAD /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E733B2287542D00E0FFAD /* ShadowButton.swift */; };
+		418E733E22875D6A00E0FFAD /* PDFDocView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E733D22875D6A00E0FFAD /* PDFDocView.swift */; };
 		41C3CF5F2284646500ED56DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C3CF5E2284646500ED56DB /* AppDelegate.swift */; };
 		41C3CF612284646500ED56DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C3CF602284646500ED56DB /* ViewController.swift */; };
-		41C3CF642284646500ED56DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C3CF622284646500ED56DB /* Main.storyboard */; };
 		41C3CF662284646700ED56DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C3CF652284646700ED56DB /* Assets.xcassets */; };
 		41C3CF692284646700ED56DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C3CF672284646700ED56DB /* LaunchScreen.storyboard */; };
+		4CD11FBAF37FE4654CB47CEE /* Pods_GooseNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D856B0620B549884669EA9 /* Pods_GooseNetworking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40D8C81E55D3AB54340259B7 /* Pods-GooseNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooseNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-GooseNetworking/Pods-GooseNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		418E731422874AB100E0FFAD /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		418E731522874AB100E0FFAD /* HTTPProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPProtocol.swift; sourceTree = "<group>"; };
+		418E731622874AB100E0FFAD /* ServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		418E731722874AB100E0FFAD /* ServiceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceRequest.swift; sourceTree = "<group>"; };
+		418E731822874AB200E0FFAD /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		418E731922874AB200E0FFAD /* NetworkResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		418E731A22874AB200E0FFAD /* NetworkErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkErrorType.swift; sourceTree = "<group>"; };
+		418E732222874B2000E0FFAD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		418E732622874C1400E0FFAD /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		418E732922874C8600E0FFAD /* PDFDocSrv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFDocSrv.swift; sourceTree = "<group>"; };
+		418E732B22874DA300E0FFAD /* ConstStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstStrings.swift; sourceTree = "<group>"; };
+		418E732D22874E2E00E0FFAD /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		418E733022874F4C00E0FFAD /* UIScrollViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewExtension.swift; sourceTree = "<group>"; };
+		418E733122874F4C00E0FFAD /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		418E73352287508E00E0FFAD /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		418E73372287509800E0FFAD /* ServiceUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceUtils.swift; sourceTree = "<group>"; };
+		418E7339228750DD00E0FFAD /* ErrorDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDataModel.swift; sourceTree = "<group>"; };
+		418E733B2287542D00E0FFAD /* ShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
+		418E733D22875D6A00E0FFAD /* PDFDocView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFDocView.swift; sourceTree = "<group>"; };
 		41C3CF5B2284646500ED56DB /* GooseNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooseNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C3CF5E2284646500ED56DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C3CF602284646500ED56DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41C3CF632284646500ED56DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41C3CF652284646700ED56DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C3CF682284646700ED56DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41C3CF6A2284646700ED56DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D856B0620B549884669EA9 /* Pods_GooseNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GooseNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		699557B04D49D94EEA14CF99 /* Pods-GooseNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooseNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GooseNetworking/Pods-GooseNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD11FBAF37FE4654CB47CEE /* Pods_GooseNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		418E731322874A7500E0FFAD /* NetworkingLayer */ = {
+			isa = PBXGroup;
+			children = (
+				418E731422874AB100E0FFAD /* HTTPMethod.swift */,
+				418E731522874AB100E0FFAD /* HTTPProtocol.swift */,
+				418E731822874AB200E0FFAD /* NetworkClient.swift */,
+				418E731A22874AB200E0FFAD /* NetworkErrorType.swift */,
+				418E731922874AB200E0FFAD /* NetworkResult.swift */,
+				418E731622874AB100E0FFAD /* ServiceProtocol.swift */,
+				418E731722874AB100E0FFAD /* ServiceRequest.swift */,
+			);
+			path = NetworkingLayer;
+			sourceTree = "<group>";
+		};
+		418E732422874BBA00E0FFAD /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				41C3CF602284646500ED56DB /* ViewController.swift */,
+				418E732222874B2000E0FFAD /* ViewModel.swift */,
+				418E733B2287542D00E0FFAD /* ShadowButton.swift */,
+				418E733D22875D6A00E0FFAD /* PDFDocView.swift */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		418E732522874BD700E0FFAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				418E732622874C1400E0FFAD /* Document.swift */,
+				418E7339228750DD00E0FFAD /* ErrorDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		418E732822874C6400E0FFAD /* ServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				418E732922874C8600E0FFAD /* PDFDocSrv.swift */,
+			);
+			path = ServiceProtocol;
+			sourceTree = "<group>";
+		};
+		418E732F22874EF600E0FFAD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				418E733022874F4C00E0FFAD /* UIScrollViewExtension.swift */,
+				418E733122874F4C00E0FFAD /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		418E73342287503500E0FFAD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				418E73352287508E00E0FFAD /* StringUtils.swift */,
+				418E73372287509800E0FFAD /* ServiceUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		41C3CF522284646500ED56DB = {
 			isa = PBXGroup;
 			children = (
 				41C3CF5D2284646500ED56DB /* GooseNetworking */,
 				41C3CF5C2284646500ED56DB /* Products */,
+				7897707BECCBC5B123897C2F /* Pods */,
+				C3E30B07BA4E16A0C6A44C9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +157,37 @@
 		41C3CF5D2284646500ED56DB /* GooseNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				418E732422874BBA00E0FFAD /* Feature */,
+				418E732522874BD700E0FFAD /* Models */,
+				418E731322874A7500E0FFAD /* NetworkingLayer */,
+				418E732822874C6400E0FFAD /* ServiceProtocol */,
+				418E73342287503500E0FFAD /* Utils */,
+				418E732F22874EF600E0FFAD /* Extensions */,
 				41C3CF5E2284646500ED56DB /* AppDelegate.swift */,
-				41C3CF602284646500ED56DB /* ViewController.swift */,
-				41C3CF622284646500ED56DB /* Main.storyboard */,
 				41C3CF652284646700ED56DB /* Assets.xcassets */,
 				41C3CF672284646700ED56DB /* LaunchScreen.storyboard */,
 				41C3CF6A2284646700ED56DB /* Info.plist */,
+				418E732B22874DA300E0FFAD /* ConstStrings.swift */,
+				418E732D22874E2E00E0FFAD /* Localizable.strings */,
 			);
 			path = GooseNetworking;
+			sourceTree = "<group>";
+		};
+		7897707BECCBC5B123897C2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				699557B04D49D94EEA14CF99 /* Pods-GooseNetworking.debug.xcconfig */,
+				40D8C81E55D3AB54340259B7 /* Pods-GooseNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3E30B07BA4E16A0C6A44C9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62D856B0620B549884669EA9 /* Pods_GooseNetworking.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41C3CF6D2284646700ED56DB /* Build configuration list for PBXNativeTarget "GooseNetworking" */;
 			buildPhases = (
+				6D626D45E35232BBB054536E /* [CP] Check Pods Manifest.lock */,
 				41C3CF572284646500ED56DB /* Sources */,
 				41C3CF582284646500ED56DB /* Frameworks */,
 				41C3CF592284646500ED56DB /* Resources */,
+				BA5AD4C91C356AFF3E2215EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,34 +251,95 @@
 			buildActionMask = 2147483647;
 			files = (
 				41C3CF692284646700ED56DB /* LaunchScreen.storyboard in Resources */,
+				418E732E22874E2E00E0FFAD /* Localizable.strings in Resources */,
 				41C3CF662284646700ED56DB /* Assets.xcassets in Resources */,
-				41C3CF642284646500ED56DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D626D45E35232BBB054536E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GooseNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5AD4C91C356AFF3E2215EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GooseNetworking/Pods-GooseNetworking-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GooseNetworking/Pods-GooseNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41C3CF572284646500ED56DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418E733322874F4C00E0FFAD /* UIViewExtension.swift in Sources */,
+				418E732322874B2000E0FFAD /* ViewModel.swift in Sources */,
+				418E733E22875D6A00E0FFAD /* PDFDocView.swift in Sources */,
+				418E732122874AB200E0FFAD /* NetworkErrorType.swift in Sources */,
 				41C3CF612284646500ED56DB /* ViewController.swift in Sources */,
+				418E73362287508E00E0FFAD /* StringUtils.swift in Sources */,
+				418E733C2287542D00E0FFAD /* ShadowButton.swift in Sources */,
 				41C3CF5F2284646500ED56DB /* AppDelegate.swift in Sources */,
+				418E73382287509800E0FFAD /* ServiceUtils.swift in Sources */,
+				418E732722874C1400E0FFAD /* Document.swift in Sources */,
+				418E733A228750DD00E0FFAD /* ErrorDataModel.swift in Sources */,
+				418E732A22874C8600E0FFAD /* PDFDocSrv.swift in Sources */,
+				418E731B22874AB200E0FFAD /* HTTPMethod.swift in Sources */,
+				418E731C22874AB200E0FFAD /* HTTPProtocol.swift in Sources */,
+				418E732C22874DA300E0FFAD /* ConstStrings.swift in Sources */,
+				418E731F22874AB200E0FFAD /* NetworkClient.swift in Sources */,
+				418E731D22874AB200E0FFAD /* ServiceProtocol.swift in Sources */,
+				418E731E22874AB200E0FFAD /* ServiceRequest.swift in Sources */,
+				418E732022874AB200E0FFAD /* NetworkResult.swift in Sources */,
+				418E733222874F4C00E0FFAD /* UIScrollViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		41C3CF622284646500ED56DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41C3CF632284646500ED56DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		41C3CF672284646700ED56DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +469,7 @@
 		};
 		41C3CF6E2284646700ED56DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699557B04D49D94EEA14CF99 /* Pods-GooseNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +488,7 @@
 		};
 		41C3CF6F2284646700ED56DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D8C81E55D3AB54340259B7 /* Pods-GooseNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
