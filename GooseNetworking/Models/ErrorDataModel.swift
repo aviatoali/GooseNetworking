@@ -1,9 +1,14 @@
-//
-//  ErrorDataModel.swift
-//  GooseNetworking
-//
-//  Created by Shan-e-Ali Shah on 5/11/19.
-//  Copyright © 2019 Shan-e-Ali Shah. All rights reserved.
-//
-
 import Foundation
+/**
+ DataModel to be use to decode the errors from service calls
+ - author: Ali H. Shah
+ - date: 03/25/2019
+ */
+struct ErrorDataModel: Decodable {
+    let error: ErrorInformationDataModel
+}
+
+struct ErrorInformationDataModel: Decodable {
+    let code: Int?
+    let message: String?
+}

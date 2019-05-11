@@ -1,9 +1,20 @@
-//
-//  ServiceUtils.swift
-//  GooseNetworking
-//
-//  Created by Shan-e-Ali Shah on 5/11/19.
-//  Copyright © 2019 Shan-e-Ali Shah. All rights reserved.
-//
-
+/**
+ Utility functions for the services
+ - author: Ali H. Shah
+ - date: 03/25/2019
+ */
 import Foundation
+import RxSwift
+
+// Function to handle a generic error message from a service call
+func HandleError(_ data: Data) -> String {
+    do {
+        let errorData = try JSONDecoder().decode(ErrorDataModel.self, from: data)
+        if let message = errorData.error.message {
+            return message
+        }
+        return "Unable to parse JSON"
+    } catch {
+        return "Unable to parse JSON"
+    }
+}

@@ -1,9 +1,9 @@
-//
-//  ConstStrings.swift
-//  GooseNetworking
-//
-//  Created by Shan-e-Ali Shah on 5/11/19.
-//  Copyright © 2019 Shan-e-Ali Shah. All rights reserved.
-//
-
 import Foundation
+/**
+ General constants file
+ - author: Ali H Shah
+ - date: 03/04/2019
+ */
+struct ApiUrlCode {
+    static let MOBILE_PLATFORM = "ApiMobilePlatformUrl"
+}

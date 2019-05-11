@@ -1,7 +1,11 @@
-/* 
-  Localizable.strings
-  GooseNetworking
+/**
+ Locale file for the English language.
+ - author: Ali H. Shah
+ - date: 03/05/2019
+ */
 
-  Created by Shan-e-Ali Shah on 5/11/19.
-  Copyright © 2019 Shan-e-Ali Shah. All rights reserved.
-*/
+"doc_get_err_title" = "Error";
+"doc_get_err_msg" = "PDF document currently unavailable, please try again later";
+"doc_get_err_action_title" = "RETRY";
+"show_pdf_action_title" = "Show PDF Doc";
+"pdf_doc_view_back_action_title" = "Back";
